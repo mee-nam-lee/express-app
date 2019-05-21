@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <% include ./header.html %>
+  </head>
+<body>
+ <script>
+        function onLogin() {
+            // var variables = getQueryVariable();
+
+            // var query = window.location.search.substring(1);
+            // var uname = document.getElementById('unameId');
+
+            // var redirect_uri = document.getElementById('redirect_uri_id');
+            // redirect_uri.value = variables['redirect_uri'];
+
+            // redirect_uri.value = "welcome.html"
+
+ //           var state = document.getElementById('state_id');
+ //           state.value = variables['state'];
+
+            document.getElementById("myForm").submit();
+ //           uname.value = '';
+        }
+    </script>
+
+    <div class="imgcontainer">
+
+    <form id="myForm" action="./login/login" method="post">
+
+        <div class="container">
+            <label>Username</label>
+            <input type="text" placeholder="Enter Username" name="uname" id="unameId" required/>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required/>
+
+            <input type="hidden" name="redirect_uri" id="redirect_uri_id" />
+
+            <button type="button" onclick="onLogin()">Login</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

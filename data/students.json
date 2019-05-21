@@ -1,0 +1,22 @@
+{
+    "students" : [
+        {
+          "idDomain" : "univ",
+          "userId" : "user1",
+          "password" : "password",
+          "botConUrl" : "http://aaa.com",
+          "botName" : "MasterBot",
+          "botName2" : "PizzaBot",
+          "webChannel" : "http:/bbb.com"
+        },
+        {
+            "idDomain" : "univ",
+            "userId" : "user2",
+            "password" : "password",
+            "botConUrl" : "http://aaa.com",
+            "botName" : "MasterBot",
+            "botName2" : "PizzaBot",
+            "webChannel" : "http:/bbb.com"
+        }
+      ]
+}
