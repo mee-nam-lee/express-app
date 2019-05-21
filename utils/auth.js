@@ -10,7 +10,7 @@ module.exports = function (req, res, next) {
        }
     } else {
         console.log(`2222 Hasn't been logged yet`);
-        return res.render('login', { title: 'Login' });
+        return res.render('login', { title: 'Login' , message : "" });
     }
 
   };
